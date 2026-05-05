@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/employee-management-vue/',   // ⭐ THIS LINE IS IMPORTANT
   plugins: [
     vue(),
     vueDevTools(),
